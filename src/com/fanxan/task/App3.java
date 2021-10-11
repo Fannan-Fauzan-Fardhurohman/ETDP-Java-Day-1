@@ -17,9 +17,6 @@ public class App3 {
         Scanner input2 = new Scanner(System.in);
         System.out.println("Menu pilihan : ");
 
-        //int h1 = 0,h2 = 0,h3 = 0,h4=0;
-//            int saldo = 100000;
-//            int simpan = 0;
         boolean x = false;
         ArrayList<String> ss = new ArrayList<>();
 
@@ -59,6 +56,9 @@ public class App3 {
                     System.out.println("masukkan index ");
                     dataChange = input.nextInt();
                     ss.remove(dataChange);
+
+                    System.out.print("Pilih menu untuk transaksi lain : ");
+                    pilih = input.nextInt();
                     break;
                 case 5:
                     System.exit(0);
